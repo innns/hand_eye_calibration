@@ -10,12 +10,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial.transform import Rotation
 import csv
-from utils import transform
+import transform
 import cv2
 
 print("---------------TSAI---------------")
 
-FILE_NAME = "hand2eye_data/hand_eye_2024-01-31-14-11.csv"
+FILE_NAME = "hand_eye_2024-01-31-14-11.csv"
 ENCODING_METHOD = "utf-8"  # UTF-8
 # ENCODING_METHOD = "utf-8-sig"  # UTF-8-BOM
 hands = []
